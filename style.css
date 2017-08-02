@@ -1,0 +1,105 @@
+body {
+  /*background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Wrapped-Old-Paper-Background-For-Free.jpg");*/
+  background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/another-rough-old-and-worn-parchment-paper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat-y;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto 0 auto;
+}
+
+
+/*--- HEADER ---*/
+
+.header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(200, 200, 200);
+  text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
+}
+
+.header a img {
+  height: 170px;
+  width: 170px;
+  margin: 0;
+  float: left;
+}
+
+.header a img:hover {
+  opacity: 0.80;
+}
+
+.header-wiki h1 {
+  font-size: 90px;
+}
+
+.header-wiki p {
+  font-size: 30px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+
+/*--- SEARCH ---*/
+
+.search {
+  margin-top: 50px;
+  position: relative;
+}
+
+.search label {
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(200, 200, 200);
+  text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
+}
+
+.search input {
+  width: 60%;
+  color: black;
+  font-size: 25px;
+  margin-right: 0px;
+}
+
+.search a img {
+  width: 100px;
+  height: 100px;
+  transform: scaleX(-1);
+  position: absolute;
+  left: 62%;
+  bottom: 0%;
+}
+
+
+/* --- OUTPUT --- */
+
+.output {
+  text-align: left;
+}
+
+.output h2 {
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 1px 1px 1px black, 1px -1px 1px black, -1px 1px 1px black, -1px -1px 1px black;
+}
+
+.output p {
+  font-size: 16px;
+  color: rgb(65, 65, 65);
+  text-align: justify;
+}
+
+.output a {
+  color: white;
+  text-decoration: none;
+}
+
+.output a:hover {
+  color: rgb(255, 50, 50);
+}
